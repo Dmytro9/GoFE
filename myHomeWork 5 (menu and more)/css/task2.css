@@ -1,0 +1,79 @@
+.price {
+    position:relative;
+    margin:0 auto;
+    background:#EE8129;
+    width:288px;
+    border:4px solid;
+    border-color:#EE8129;
+    height:460px;
+    border-radius:7px;
+    font-family: 'Trebuchet MS';
+}
+h2 {
+    color:white;
+    text-align:center;
+}
+.center {
+    background:white;
+    height: 392px;
+}
+.center-one {
+    font-size:24px;
+    padding:18px;
+    padding-bottom:10px;
+    text-align:center;
+}
+.index {
+    font-size:75px;
+    font-weight: bold;
+    margin-left:60px;
+    color:#35495A;
+}
+.bax {
+    font-size:20px;
+    vertical-align: super;
+}
+.date {
+    font-size:20px;
+    vertical-align:sub;
+}
+ul {
+    list-style-type:none;
+    padding: 0;
+    color: #888c94;
+}
+li {
+    padding: 7px 5px 7px 30px;
+	border-bottom: 1px solid white;
+}
+.list {
+    width:250px;
+    margin-left: 19px;
+    margin-top: 28px;
+}
+li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+li:before {
+    content: url(before.png);
+    margin-right: 10px;
+}
+.bottom {
+    width: 253px;
+    margin: 0 auto;
+    border: 1px solid;
+    color:white;
+    background-color: #EE8129;
+    text-align:center;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 11px 0;
+    border-bottom: 3px solid #b3560b;
+}
+.bottom:hover {
+    cursor: pointer;
+}

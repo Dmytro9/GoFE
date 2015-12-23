@@ -1,0 +1,145 @@
+.main {
+    max-width: 1000px;
+    display: block;
+    text-align: center;
+    margin-left: 175px;
+    margin-top: 30px;
+    background-color: #f6f9f9;
+    max-height: 1150px;
+    height: 540px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    
+}
+p.first_line {
+  font-family: "Lato", sans-serif;
+    font-size: 30px;
+    color: #2d394f;
+   margin-bottom: 5px;
+    padding-top: 25px;
+}
+p.second_line {
+   color: #979797;
+   font-family: "Lato", sans-serif;
+   font-size: 12px;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;    
+}
+.effect {
+  display: inline-block;
+  position: relative;
+    margin: 5px;
+    
+}
+
+.eff-1-1 {
+ width: 250px;
+ height: 180px;
+ overflow: hidden;
+}
+.eff-1-1 .button {
+  position: absolute;
+  background: rgba(49,173,248,0.7);
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.btn img {
+  position: absolute;
+ margin-top: 80px;
+ margin-left: -25px;
+}
+
+.lop img {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 5px;
+}
+
+.eff-1-1:hover .button {
+ top: 0px;
+}
+
+
+
+.modalDialog {
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255,255,255,0.8);
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 780px;
+    height: 374px;
+    background: url(img/zoom1.png);
+    box-shadow: 0 0 10px rgba(0,0,0,0.8); 
+    position: relative;
+    margin: 0 auto;
+    margin-top: 150px;
+    
+}
+.one:target {
+    opacity: 1;
+}
+.one > div {
+    background: url(img/zoom2.png); 
+}
+.two:target {
+    opacity: 1;
+}
+.two > div {
+    background: url(img/zoom3.jpg);
+}
+.three:target {
+    opacity: 1;
+}
+.three > div {
+    background: url(img/zoom4.png); 
+}
+.four:target {
+    opacity: 1;
+}
+.four > div {
+    background: url(img/zoom5.png); 
+}
+.five:target {
+    opacity: 1;
+}
+.five > div {
+    background: url(img/zoom6.jpg);
+}
+.btn img:hover {
+   box-shadow: 0px 1px 8px 0px rgba(245,237,237,1);
+}
+.lop img:hover {
+   box-shadow: 0px 1px 8px 0px rgba(245,237,237,1);
+}
+.close {
+    font-family: sans-serif;
+    font-size: 10px;
+    background: #f74c26;
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    top: -10px;
+    padding: 2px 7px 4px 7px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 1px 5px 1px rgba(145,126,126,1);
+}
+.close:hover {
+    color: #000;
+    
+}
+
+
+

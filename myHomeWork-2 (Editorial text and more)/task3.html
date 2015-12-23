@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <title>Задание 3</title>     
+  </head>
+   
+      <body>
+	     <form action="formdata.php" method="POST" name="form1">
+		 
+		 <p><label>Name</br><input type="text" name="name" size="10" maxlength="10"></label><p>
+		 <p><label>Email</br><input type="text" name="email" size="10"></label><p>
+		 
+		 <p>Sex</br><label><input type="radio" name="sex" value="male">Male</label><label><input type="radio" name="sex" value="Female">Female</label></p>
+		 
+		 <p>Current status</br>
+		    <label><input type="checkbox" name="st">Student</label><br>
+		    <label><input type="checkbox" name="em">Employed</label><br>
+		    <label><input type="checkbox" name="un">Unemployed</label><br>
+		 </p>
+		 
+		  <p>Month and Year of birth</br>
+		     <select name="month">
+			    <option>January</option>
+				<option>February</option>
+				<option>March</option>
+		  </select>
+		  <select name="year">
+			    <option>1984</option>
+				<option>1985</option>
+				<option>1986</option>
+		  </select>
+		 </p>
+		 
+		 <p>Skills and Technologies</br>
+		     <select name="skills" size="10" multiple>
+			    <optgroup label="Tech skills">
+				    <option>HTML</option>
+				    <option>CSS</option>
+					<option>Java Script</option>
+					<option>git</option>
+				</optgroup>	
+				<optgroup label="Soft Skills">
+				    <option>Time management</option>
+                    <option>Proactivity</option>
+                    <option>Teamwork</option>
+                    <option>Leadership</option>
+                </optgroup>
+		     </select>
+		 </p>
+		 
+		 
+      <p>Photo<br> <input type="file" name="Choose file"></p>
+     
+      <p><label for="text">Comments</label></br><textarea name="text" rows="6" cols="25" id="text"></textarea></p>	 
+		 
+	  <p><input type="submit" name="save" value="Save"></p> 
+		 
+		 </form>
+    
+	  </body>
+		
+
+ 
+   
+   
+   
+   
+   
+   
+ </html>  

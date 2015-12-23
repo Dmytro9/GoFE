@@ -1,0 +1,35 @@
+.pager {
+    padding: 0;
+    width: 100%;
+}
+.pager ul {
+    font-family: Verdana, sans-serif;
+    list-style-type: none;
+    margin: 20px auto;
+    display: table;
+    font-size: 11px;
+}
+.pager ul li {
+    float: left;
+    margin: 0 3px;
+    color: #A13BCF;
+}
+.pager ul li a {
+    color: #A13BCF;
+    padding: 3px 7px;
+    text-decoration: none;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+}
+
+.pager ul li a:hover {
+    color: #FFFFFF;
+    background-color: #A13BCF;
+} 	 	 	
+.pager ul li .border a{
+    border: none;
+}
+.pager ul li .border a:hover {
+    background-color: transparent;
+    color: green;
+}

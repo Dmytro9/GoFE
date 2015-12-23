@@ -1,0 +1,63 @@
+.menu {background-color: #1AA4FF;
+      margin-top: 15px;
+      box-shadow: 0px -0.5px 4px 0px rgba(50, 50, 50, 0.50);
+	  position: relative;
+}
+.above {
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+}
+.above li {
+    display: inline-block;
+	list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: impact;
+    padding: 7px 11px;
+    font-size: 18px;
+}
+.above li a {text-decoration: none;
+color:white;
+}
+.above li:last-child {float: right;}
+.above li:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color:grey;
+}
+.above li:hover a {
+    color:grey;
+}
+.inside {
+    position: absolute;
+    width:100%; 
+    left:0;
+    top: 36px;
+}
+.inside ul {
+    display: none;
+    background-color: #E7E7E7;
+}
+.inside li a{
+    font-family: Arial;
+    color:grey;
+    font-size: 12px;
+}
+.above li:hover > .inside  ul{
+    display:block;
+}
+.inside li a:hover {
+    color:blue;
+}
+.inside li:last-child {float: none;}
+.first ul {padding-left: 0.2%;}
+.second ul {padding-left: 11%;}
+.third ul {padding-left: 22%;}
+.fourth ul {padding-left: 25%;}
+.fifth ul {padding-left: 33%}
+.sixth ul {padding-left: 27%;}
+.seventh ul{padding-left:44%;}
+.eighth ul {padding-left:50%;}
+.ninth ul {padding-left: 57%;}
+.tenth ul {padding-left: 68%;}
